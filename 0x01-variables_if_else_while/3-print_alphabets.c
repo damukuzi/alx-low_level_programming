@@ -19,7 +19,6 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	putchar('$');
-	putchar('\n');
+	putchar("$\n");
 	return (0);
 }
