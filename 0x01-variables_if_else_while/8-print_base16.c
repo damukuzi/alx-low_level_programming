@@ -3,17 +3,17 @@
 /* more headers goes there */
 #include <stdio.h>
 /**
- * main - prints alphabet
- * Return: returns zero
+ * main - Short description, single line
+ * Return: Description of the returned value
  */
 int main(void)
 {
 	char ch;
-	int num;
+	long num;
 
 	for (num = 0; num <= 9; num++)
 	{
-		putchar(num);
+		putchat(num + '0');
 	}
 
 	for (ch = 'a'; ch <= 'f'; ch++)
