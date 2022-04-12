@@ -6,7 +6,7 @@
  * @n: Description of parameter x
  * Return: returns zero
 */
-int print_last_digit (int n)
+int print_last_digit(int n)
 {
 	int last_number;
 
