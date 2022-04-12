@@ -16,4 +16,16 @@ int printword(char *sentence);
 */
 void print_alphabet(void);
 
+void print_alphabet(void)
+{
+        char ch = 'a';
+
+        while (ch <= 'z')
+        {
+                putchar(ch);
+                ch++;
+        }
+        putchar('\n');
+}
+
 #endif
