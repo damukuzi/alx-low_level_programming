@@ -1,15 +1,7 @@
-#ifndef MAIN_H_INCLUDED
-#define MAIN_H_INCLUDED
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <stdio.h>
-
-
-/**
- * print_alphabet - prints alphabet
- * Return: returns zero
-*/
-int main(void);
-
 
 /**
  * printword - prints alphabet
