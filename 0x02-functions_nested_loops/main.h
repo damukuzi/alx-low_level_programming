@@ -16,4 +16,9 @@ int printword(char *sentence);
 */
 void print_alphabet(void);
 
+/**
+ * print_alphabet_x10 - prints alphabet
+*/
+void print_alphabet_x10(void);
+
 #endif
