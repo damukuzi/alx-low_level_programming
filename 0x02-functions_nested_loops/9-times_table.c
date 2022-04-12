@@ -23,12 +23,17 @@ void times_table(void)
 				}
 				if (column != 0)
 				{
-					_putchar (' ');
 					if ((value / 10) != 0)
 					{
+						_putchar (' ');
 						_putchar ((value / 10) + '0');
+						_putchar ((value % 10) + '0');
 					}
-					_putchar ((value % 10) + '0');
+					else
+					{
+						_putchar (' ');
+						_putchar ((value % 10) + '0');
+					}
 				}
 				if (column < 9)
 				{
