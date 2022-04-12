@@ -17,8 +17,6 @@ void times_table(void)
 		for (column = 0; column <= 9; column++)
 		{
 			value = row * column;
-			if ((value / 10) == 0)
-			{
 				if (column == 0)
 				{
 					_putchar ('0');
@@ -38,7 +36,6 @@ void times_table(void)
 					_putchar ((value / 10) + '0');
 					_putchar ((value % 10) + '0');
 				}
-			}
 		}
 	_putchar ('\n');
 	}
