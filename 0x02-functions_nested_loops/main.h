@@ -3,6 +3,14 @@
 
 #include <stdio.h>
 
+
+/**
+ * print_alphabet - prints alphabet
+ * Return: returns zero
+*/
+int main(void);
+
+
 /**
  * printword - prints alphabet
  * @sentence: Description of parameter x
