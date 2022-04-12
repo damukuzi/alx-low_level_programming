@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * abs - prints alphabet
+ * _abs - prints alphabet
  * @n: Description of parameter x
  * Return: returns zero
 */
