@@ -9,27 +9,11 @@
  * Return: returns zero
 */
 
-int printword(char *sentence)
-{
-	printf("%s", sentence);
-	return (0);
-}
+int printword(char *sentence);
 
 /**
  * print_alphabet - prints alphabet
- * Return: returns zero
 */
-
-void print_alphabet(void)
-{
-	char ch = 'a';
-
-	while (ch <= 'z')
-	{
-		putchar(ch);
-		ch++;
-	}
-	putchar('\n');
-}
+void print_alphabet(void);
 
 #endif
