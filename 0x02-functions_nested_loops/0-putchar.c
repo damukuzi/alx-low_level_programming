@@ -9,5 +9,5 @@
  */
 int main(void)
 {
-	printword("_putchar")
+	printword("_putchar");
 }
