@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
- * _islower - prints alphabet
+ * _isalpha - prints alphabet
  * Return: returns zero
 */
-int _islower(int c)
+int _isalpha(int c)
 {
 	if ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'))
 	{
@@ -24,14 +24,16 @@ int _islower(int c)
 
 int main(void)
 {
-    int r;
+	int r;
 
-    r = _islower('H');
-    _putchar(r + '0');
-    r = _islower('o');
-    _putchar(r + '0');
-    r = _islower(108);
-    _putchar(r + '0');
-    _putchar('\n');
-    return (0);
+	r = _isalpha('H');
+	_putchar(r + '0');
+	r = _isalpha('o');
+	_putchar(r + '0');
+	r = _isalpha(108);
+	_putchar(r + '0');
+	r = _isalpha(';');
+	_putchar(r + '0');
+	_putchar('\n');
+	return (0);
 }
