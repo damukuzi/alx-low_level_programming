@@ -16,10 +16,4 @@ int printword(char *sentence);
 */
 void print_alphabet(void);
 
-/**
- * main - prints alphabet
- * Return: returns zero
-*/
-
-int main();
 #endif
