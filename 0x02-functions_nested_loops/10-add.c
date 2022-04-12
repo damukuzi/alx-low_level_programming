@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _add - prints alphabet
+ * add - prints alphabet
  * @i: Description of parameter x
  * @k: Description of parameter x
  * Return: returns zero
