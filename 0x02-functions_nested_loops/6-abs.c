@@ -6,7 +6,7 @@
  * @n: Description of parameter x
  * Return: returns zero
 */
-int abs(int n)
+int _abs(int n)
 {
 	if (n < 0)
 	{
