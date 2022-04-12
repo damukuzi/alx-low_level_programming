@@ -3,6 +3,7 @@
 
 /**
  * _islower - prints alphabet
+ * @c: Description of parameter x
  * Return: returns zero
 */
 int _islower(int c)

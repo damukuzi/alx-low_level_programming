@@ -3,6 +3,7 @@
 
 /**
  * _isalpha - prints alphabet
+ * @c: Description of parameter x
  * Return: returns zero
 */
 int _isalpha(int c)
