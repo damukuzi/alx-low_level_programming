@@ -1,8 +1,9 @@
 #include <main.h>
 /**
- * main - prints alphabet
+ * print_numbers - prints alphabet
  * Return: returns zero
  */
+
 void print_numbers(void)
 {
 	long num;
