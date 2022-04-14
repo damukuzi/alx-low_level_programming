@@ -1,5 +1,4 @@
 #include <main.h>
-
 /**
  * print_numbers - prints alphabet
  * Return: returns zero
@@ -15,6 +14,5 @@ void print_numbers(void)
 		_putchar (i + '0');
 		i++;
 	}
-	
 	_putchar ('\n');
 }
