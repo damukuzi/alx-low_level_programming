@@ -3,7 +3,7 @@
  * main - prints alphabet
  * Return: returns zero
  */
-int main(void)
+void print_numbers(void)
 {
 	long num;
 
