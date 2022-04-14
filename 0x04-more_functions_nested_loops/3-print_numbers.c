@@ -1,4 +1,5 @@
 #include <main.h>
+
 /**
  * print_numbers - prints alphabet
  * Return: returns zero
@@ -6,7 +7,7 @@
 
 void print_numbers(void)
 {
-	long num;
+	int num;
 
 	for (num = 0; num <= 9; num++)
 	{
