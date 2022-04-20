@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h> 
 /**
  * print_rev - prints a string in reverse order
  *@s: A pointer to an int that will be changed
@@ -25,6 +26,5 @@ right--;
 
 
 }
-_putchar (s);
-_putchar ('\n');
+printf ("%s",  s);
 }
