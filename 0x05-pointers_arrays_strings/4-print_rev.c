@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * print_rev - prints a string in reverse order
  *@s: A pointer to an int that will be changed
