@@ -22,8 +22,8 @@ s[i] = s[right];
 s[right] = temp;
 right--
 
-_putchar (s);
-}
 
+}
+_putchar (s);
 _putchar ('\n');
 }
