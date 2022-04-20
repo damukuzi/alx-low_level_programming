@@ -8,12 +8,12 @@
 
 int _strlen(char *word)
 {
-    int n;
+	int n;
 
-    n = 0;
-    while (word[n] != '\0')
-    {
-    n++;
-    }
-    return (n);
+	n = 0;
+	while (word[n] != '\0')
+	{
+		n++;
+	}
+	return (n);
 }
