@@ -1,6 +1,4 @@
 #include "main.h"
-#include <string.h>
-#include <stdio.h> 
 /**
  * print_rev - prints a string in reverse order
  *@s: A pointer to an int that will be changed
@@ -10,21 +8,18 @@
 
 void print_rev(char *s)
 {
-int i, len, left, right;
-char temp;
+int i;
 
-len = strlen(s);
-left = 0;
-right = len - 1;
-
-for (i = left ; i <= right; i++)
+i = 0;
+while (s[i] != '\0')
 {
-temp = s[i]; 
-s[i] = s[right];
-s[right] = temp;
-right--;
-
-
+i++;
 }
-printf ("%s",  s);
+
+for (i = i - 1 ; i >= 0; i--)
+{
+_putchar (s[i]);
+}
+
+_putchar ('\n');
 }
