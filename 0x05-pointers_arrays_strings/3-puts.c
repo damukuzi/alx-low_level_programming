@@ -15,7 +15,7 @@ void _puts(char *word)
 
         for (m = 0; c[m]; m++)
         {
-_               _putchar(c[m]);
+               _putchar(c[m]);
         }
         _putchar('\n');
 }
