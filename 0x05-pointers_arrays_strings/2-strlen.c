@@ -11,7 +11,7 @@ int _strlen(char *word)
     int n;
 
     n = 0;
-    while (word[u] != '\0')
+    while (word[n] != '\0')
     {
         n++;
     }
