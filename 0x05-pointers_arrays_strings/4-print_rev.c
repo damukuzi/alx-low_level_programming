@@ -21,7 +21,7 @@ for (i = left ; i <= right; i++)
 temp = s[i]; 
 s[i] = s[right];
 s[right] = temp;
-right--
+right--;
 
 
 }
