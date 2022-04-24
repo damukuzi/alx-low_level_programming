@@ -1,25 +1,29 @@
-#include <main.h>
-
+#include "main.h"
 /**
- * _strcat - concatenates a string
- *@dest: A pointer to an int that will be changed
- * @src: A pointer to an int that will be changed
- *
- *Return: string
+ *_strcat - concatenates two strings
+ *@dest: A pointer to a character that will be changed
+ *@src: A pointer to a character that will also be changed
+ *Return: dest
  */
 
-char *_strcat(char *dest, char *src);() {
-int length, j;
-// store length of s1 in the length variable
-length = 0;
-while (dest[length] != '\0') {
-++length;
+char *_strcat(char *dest, char *src)
+{
+int i, j;
+
+i = 0;
+while (dest[i] != '\0')
+{
+i++;
 }
-// concatenate s2 to s1
-for (j = 0; src[j] != '\0'; ++j, ++length) {
-dest[length] = src[j];
+
+j = 0;
+while (src[j] != '\0')
+{
+dest[i] = src[j];
+j++;
+i++;
 }
-// terminating the s1 string
-dest[length] = '\0';
-return dest;
+dest[i] = '\0';
+
+return (dest);
 }
