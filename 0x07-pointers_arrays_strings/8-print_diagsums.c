@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * print_diagsums - the sum of the two diagonals of matrix square matrix of integers
+ * print_diagsums - the sum of diagonals
  * @matrix: 2d array of chars
  *@n: number matrix
 *Return: void
@@ -19,7 +19,7 @@ void print_diagsums(int *matrix, int n)
 	{
 		sum1 = sum1 + *(matrix + i * n + i);
 		sum2 = sum2 + *(matrix + i * n + n - i - 1);
-		i++; 
+		i++;
 	}
 
 	printf("%i, %i\n", sum1, sum2);

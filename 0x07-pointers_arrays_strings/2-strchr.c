@@ -4,7 +4,7 @@
  * _strchr - gets a character in a string
  * @word: word
  * @letter: letter to search
- * Return: Pointer to the first occurrence of the character letter in the string word
+ * Return: returns word
  **/
 
 char *_strchr(char *word, char letter)
