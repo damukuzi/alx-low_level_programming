@@ -9,7 +9,7 @@ void _print_rev_recursion(char *word)
 {
 	if (*word)
 	{
-		reverse(word + 1);
+		_print_rev_recursion(word + 1);
 		_putchar(*word);
 	}
 }
