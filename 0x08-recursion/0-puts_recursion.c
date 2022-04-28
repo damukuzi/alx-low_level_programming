@@ -7,11 +7,11 @@
 
 void _puts_recursion(char *word)
 {
-    if (*word == '\0')
-    {
-        _putchar('\n');
-        return;
-    }
-        _putchar (*word);
-        _puts_recursion(word + 1);
+	if (*word == '\0')
+	{
+		_putchar('\n');
+		return;
+	}
+	_putchar (*word);
+	_puts_recursion(word + 1);
 }
