@@ -18,6 +18,6 @@ int _pow_recursion(int a, int b)
 	}
 	else
 	{
-		return (a * _pow_recursion(a, b + 1));
+		return (-1);
 	}
 }
